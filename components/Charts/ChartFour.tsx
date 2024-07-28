@@ -104,7 +104,7 @@ const ChartFour: React.FC = () => {
       fontFamily: "inter",
 
       markers: {
-        radius: 99,
+        "radius": 99,
       },
     },
     // yaxis: {
