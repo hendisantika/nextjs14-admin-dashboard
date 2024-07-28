@@ -1,10 +1,10 @@
 import Breadcrumb from "@/components/Breadcrumbs/Breadcrumb";
 
 import { Metadata } from "next";
-import TRXHistory from "@/components/TransactionHistory/TRXHistory";
+import SettlementHistory from "@/components/SettlementHistory/SettlementHistory";
 
 export const metadata: Metadata = {
-  title: "Tables Page | Next.js E-commerce Dashboard Template",
+  title: "Settlement History Page | Next.js E-commerce Dashboard Template",
   description: "This is Tables page for TailAdmin Next.js",
   // other metadata
 };
@@ -12,10 +12,10 @@ export const metadata: Metadata = {
 const TablesPage = () => {
   return (
     <>
-      <Breadcrumb pageName="Tables" />
+      <Breadcrumb pageName="SettlementHistory" />
 
       <div className="flex flex-col gap-10">
-        <TRXHistory />
+        <SettlementHistory />
       </div>
     </>
   );
