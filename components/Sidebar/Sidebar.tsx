@@ -114,7 +114,7 @@ const Sidebar = ({}: SidebarProps) => {
               <li>
                 <LinkItem
                   title="Settlement History"
-                  href="/tables2"
+                  href="/settlement-history"
                   icon={<BookOpenText className="h-6 w-6" />}
                 ></LinkItem>
               </li>
